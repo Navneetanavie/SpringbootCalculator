@@ -34,7 +34,7 @@ Comprehensive Unit Tests (`LogisticsServiceTest.java`) were written utilizing `M
 ## Live Deployment
 This architecture is proudly deployed on the cloud:
 
-*   **Frontend (Vercel):** [https://springbootcalculator-o36z.vercel.app](https://springbootcalculator-o36z.vercel.app) *(Assumed based on Vercel's standard proxy domain generation)*
+*   **Frontend (Vercel):** [https://springbootcalculator-o36z.vercel.app]([https://springboot-calculator.vercel.app](https://springboot-calculator.vercel.app)) *(Assumed based on Vercel's standard proxy domain generation)*
 *   **Backend (Render):** `https://springbootcalculator-o36z.onrender.com`
 
 *The Spring Boot Backend is containerized via Docker and orchestrated on Render. The frontend is built using Vite and statically served via Vercel's Edge network, communicating to the Render API securely utilizing custom Pre-Flight CORS definitions.*
