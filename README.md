@@ -31,17 +31,10 @@ Comprehensive Unit Tests (`LogisticsServiceTest.java`) were written utilizing `M
 *   **`calculateDistance(...)`**: 
     *   Tests the Haversine formula implementation mapping coordinates on a sphere to guarantee distance bounds logic is accurate.
 
-## Running Locally
-**Backend:**
-```bash
-./mvnw spring-boot:run
-```
-*(Runs on localhost:8080)*
+## Live Deployment
+This architecture is proudly deployed on the cloud:
 
-**Frontend:**
-```bash
-cd react-ui
-npm install
-npm run dev
-```
-*(Runs on localhost:5173)*
+*   **Frontend (Vercel):** [https://springbootcalculator-o36z.vercel.app](https://springbootcalculator-o36z.vercel.app) *(Assumed based on Vercel's standard proxy domain generation)*
+*   **Backend (Render):** `https://springbootcalculator-o36z.onrender.com`
+
+*The Spring Boot Backend is containerized via Docker and orchestrated on Render. The frontend is built using Vite and statically served via Vercel's Edge network, communicating to the Render API securely utilizing custom Pre-Flight CORS definitions.*
